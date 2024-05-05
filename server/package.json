@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1",
+    "node": "^22.1.0",
+    "nodemon": "^3.1.0"
+  },
+  "name": "gaph-qltutorial",
+  "version": "1.0.0",
+  "description": "a tutorial in which i try to implement the thread clone with Graph QL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
